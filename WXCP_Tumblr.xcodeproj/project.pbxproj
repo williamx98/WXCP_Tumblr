@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03082499DDC6ED406E21AAA8 /* Pods_WXCP_TumblrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049394846A3E045163D64B53 /* Pods_WXCP_TumblrTests.framework */; };
+		AFB5B0701DA84A9BCC558423 /* Pods_WXCP_TumblrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702EC6B52365B51AD14E5C12 /* Pods_WXCP_TumblrUITests.framework */; };
+		B0A598EF67E9EE5F4CBEACFD /* Pods_WXCP_Tumblr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502438EEFC6301B256251E03 /* Pods_WXCP_Tumblr.framework */; };
+		B7103A9B2141EBD8009A9440 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7103A9A2141EBD8009A9440 /* PhotoViewController.swift */; };
+		B7103A9D2141EDEF009A9440 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7103A9C2141EDEF009A9440 /* PostCell.swift */; };
+		B7F6654E2141EA2D00817659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6654D2141EA2D00817659 /* AppDelegate.swift */; };
+		B7F665532141EA2D00817659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F665512141EA2D00817659 /* Main.storyboard */; };
+		B7F665552141EA3000817659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7F665542141EA3000817659 /* Assets.xcassets */; };
+		B7F665582141EA3000817659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F665562141EA3000817659 /* LaunchScreen.storyboard */; };
+		B7F665632141EA3000817659 /* WXCP_TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F665622141EA3000817659 /* WXCP_TumblrTests.swift */; };
+		B7F6656E2141EA3000817659 /* WXCP_TumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6656D2141EA3000817659 /* WXCP_TumblrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7F6655F2141EA3000817659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7F665422141EA2D00817659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7F665492141EA2D00817659;
+			remoteInfo = WXCP_Tumblr;
+		};
+		B7F6656A2141EA3000817659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7F665422141EA2D00817659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7F665492141EA2D00817659;
+			remoteInfo = WXCP_Tumblr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049394846A3E045163D64B53 /* Pods_WXCP_TumblrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXCP_TumblrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		502438EEFC6301B256251E03 /* Pods_WXCP_Tumblr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXCP_Tumblr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702EC6B52365B51AD14E5C12 /* Pods_WXCP_TumblrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXCP_TumblrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B32A228F8AD2504A6C41653 /* Pods-WXCP_TumblrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCP_TumblrUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXCP_TumblrUITests/Pods-WXCP_TumblrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9118AFAF5ED5BB037BABC297 /* Pods-WXCP_Tumblr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCP_Tumblr.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXCP_Tumblr/Pods-WXCP_Tumblr.release.xcconfig"; sourceTree = "<group>"; };
+		A007F72C237CA3DAFFBBC396 /* Pods-WXCP_TumblrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCP_TumblrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXCP_TumblrTests/Pods-WXCP_TumblrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7103A9A2141EBD8009A9440 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		B7103A9C2141EDEF009A9440 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		B7F6654A2141EA2D00817659 /* WXCP_Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXCP_Tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F6654D2141EA2D00817659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7F665522141EA2D00817659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7F665542141EA3000817659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7F665572141EA3000817659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7F665592141EA3000817659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F6655E2141EA3000817659 /* WXCP_TumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXCP_TumblrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F665622141EA3000817659 /* WXCP_TumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXCP_TumblrTests.swift; sourceTree = "<group>"; };
+		B7F665642141EA3000817659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F665692141EA3000817659 /* WXCP_TumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXCP_TumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F6656D2141EA3000817659 /* WXCP_TumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXCP_TumblrUITests.swift; sourceTree = "<group>"; };
+		B7F6656F2141EA3000817659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE035275E3823B01F437CC23 /* Pods-WXCP_TumblrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCP_TumblrUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXCP_TumblrUITests/Pods-WXCP_TumblrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE37453D969C54633ED4BEC7 /* Pods-WXCP_Tumblr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCP_Tumblr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXCP_Tumblr/Pods-WXCP_Tumblr.debug.xcconfig"; sourceTree = "<group>"; };
+		D227376DD995D8A5F4439E12 /* Pods-WXCP_TumblrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCP_TumblrTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXCP_TumblrTests/Pods-WXCP_TumblrTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7F665472141EA2D00817659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A598EF67E9EE5F4CBEACFD /* Pods_WXCP_Tumblr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F6655B2141EA3000817659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03082499DDC6ED406E21AAA8 /* Pods_WXCP_TumblrTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F665662141EA3000817659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB5B0701DA84A9BCC558423 /* Pods_WXCP_TumblrUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A0066A47B0512517731F643 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				502438EEFC6301B256251E03 /* Pods_WXCP_Tumblr.framework */,
+				049394846A3E045163D64B53 /* Pods_WXCP_TumblrTests.framework */,
+				702EC6B52365B51AD14E5C12 /* Pods_WXCP_TumblrUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AC23ED7C8128A8FC5C8700B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE37453D969C54633ED4BEC7 /* Pods-WXCP_Tumblr.debug.xcconfig */,
+				9118AFAF5ED5BB037BABC297 /* Pods-WXCP_Tumblr.release.xcconfig */,
+				A007F72C237CA3DAFFBBC396 /* Pods-WXCP_TumblrTests.debug.xcconfig */,
+				D227376DD995D8A5F4439E12 /* Pods-WXCP_TumblrTests.release.xcconfig */,
+				BE035275E3823B01F437CC23 /* Pods-WXCP_TumblrUITests.debug.xcconfig */,
+				8B32A228F8AD2504A6C41653 /* Pods-WXCP_TumblrUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7F665412141EA2D00817659 = {
+			isa = PBXGroup;
+			children = (
+				B7F6654C2141EA2D00817659 /* WXCP_Tumblr */,
+				B7F665612141EA3000817659 /* WXCP_TumblrTests */,
+				B7F6656C2141EA3000817659 /* WXCP_TumblrUITests */,
+				B7F6654B2141EA2D00817659 /* Products */,
+				8AC23ED7C8128A8FC5C8700B /* Pods */,
+				5A0066A47B0512517731F643 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7F6654B2141EA2D00817659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7F6654A2141EA2D00817659 /* WXCP_Tumblr.app */,
+				B7F6655E2141EA3000817659 /* WXCP_TumblrTests.xctest */,
+				B7F665692141EA3000817659 /* WXCP_TumblrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7F6654C2141EA2D00817659 /* WXCP_Tumblr */ = {
+			isa = PBXGroup;
+			children = (
+				B7F6654D2141EA2D00817659 /* AppDelegate.swift */,
+				B7F665512141EA2D00817659 /* Main.storyboard */,
+				B7F665542141EA3000817659 /* Assets.xcassets */,
+				B7F665562141EA3000817659 /* LaunchScreen.storyboard */,
+				B7F665592141EA3000817659 /* Info.plist */,
+				B7103A9A2141EBD8009A9440 /* PhotoViewController.swift */,
+				B7103A9C2141EDEF009A9440 /* PostCell.swift */,
+			);
+			path = WXCP_Tumblr;
+			sourceTree = "<group>";
+		};
+		B7F665612141EA3000817659 /* WXCP_TumblrTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7F665622141EA3000817659 /* WXCP_TumblrTests.swift */,
+				B7F665642141EA3000817659 /* Info.plist */,
+			);
+			path = WXCP_TumblrTests;
+			sourceTree = "<group>";
+		};
+		B7F6656C2141EA3000817659 /* WXCP_TumblrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7F6656D2141EA3000817659 /* WXCP_TumblrUITests.swift */,
+				B7F6656F2141EA3000817659 /* Info.plist */,
+			);
+			path = WXCP_TumblrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7F665492141EA2D00817659 /* WXCP_Tumblr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F665722141EA3000817659 /* Build configuration list for PBXNativeTarget "WXCP_Tumblr" */;
+			buildPhases = (
+				724490876B338E4A8889ECA7 /* [CP] Check Pods Manifest.lock */,
+				B7F665462141EA2D00817659 /* Sources */,
+				B7F665472141EA2D00817659 /* Frameworks */,
+				B7F665482141EA2D00817659 /* Resources */,
+				DCFFA52878FFE92D7CC32098 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXCP_Tumblr;
+			productName = WXCP_Tumblr;
+			productReference = B7F6654A2141EA2D00817659 /* WXCP_Tumblr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7F6655D2141EA3000817659 /* WXCP_TumblrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F665752141EA3000817659 /* Build configuration list for PBXNativeTarget "WXCP_TumblrTests" */;
+			buildPhases = (
+				3F95C9C1ADA5B69DF1A0272B /* [CP] Check Pods Manifest.lock */,
+				B7F6655A2141EA3000817659 /* Sources */,
+				B7F6655B2141EA3000817659 /* Frameworks */,
+				B7F6655C2141EA3000817659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7F665602141EA3000817659 /* PBXTargetDependency */,
+			);
+			name = WXCP_TumblrTests;
+			productName = WXCP_TumblrTests;
+			productReference = B7F6655E2141EA3000817659 /* WXCP_TumblrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7F665682141EA3000817659 /* WXCP_TumblrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F665782141EA3000817659 /* Build configuration list for PBXNativeTarget "WXCP_TumblrUITests" */;
+			buildPhases = (
+				45E33668C4F581AA3CD37DEC /* [CP] Check Pods Manifest.lock */,
+				B7F665652141EA3000817659 /* Sources */,
+				B7F665662141EA3000817659 /* Frameworks */,
+				B7F665672141EA3000817659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7F6656B2141EA3000817659 /* PBXTargetDependency */,
+			);
+			name = WXCP_TumblrUITests;
+			productName = WXCP_TumblrUITests;
+			productReference = B7F665692141EA3000817659 /* WXCP_TumblrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7F665422141EA2D00817659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Will Xu ";
+				TargetAttributes = {
+					B7F665492141EA2D00817659 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B7F6655D2141EA3000817659 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B7F665492141EA2D00817659;
+					};
+					B7F665682141EA3000817659 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B7F665492141EA2D00817659;
+					};
+				};
+			};
+			buildConfigurationList = B7F665452141EA2D00817659 /* Build configuration list for PBXProject "WXCP_Tumblr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7F665412141EA2D00817659;
+			productRefGroup = B7F6654B2141EA2D00817659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7F665492141EA2D00817659 /* WXCP_Tumblr */,
+				B7F6655D2141EA3000817659 /* WXCP_TumblrTests */,
+				B7F665682141EA3000817659 /* WXCP_TumblrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7F665482141EA2D00817659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F665582141EA3000817659 /* LaunchScreen.storyboard in Resources */,
+				B7F665552141EA3000817659 /* Assets.xcassets in Resources */,
+				B7F665532141EA2D00817659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F6655C2141EA3000817659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F665672141EA3000817659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F95C9C1ADA5B69DF1A0272B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXCP_TumblrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45E33668C4F581AA3CD37DEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXCP_TumblrUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		724490876B338E4A8889ECA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXCP_Tumblr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFFA52878FFE92D7CC32098 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WXCP_Tumblr/Pods-WXCP_Tumblr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXCP_Tumblr/Pods-WXCP_Tumblr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7F665462141EA2D00817659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F6654E2141EA2D00817659 /* AppDelegate.swift in Sources */,
+				B7103A9B2141EBD8009A9440 /* PhotoViewController.swift in Sources */,
+				B7103A9D2141EDEF009A9440 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F6655A2141EA3000817659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F665632141EA3000817659 /* WXCP_TumblrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F665652141EA3000817659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F6656E2141EA3000817659 /* WXCP_TumblrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7F665602141EA3000817659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7F665492141EA2D00817659 /* WXCP_Tumblr */;
+			targetProxy = B7F6655F2141EA3000817659 /* PBXContainerItemProxy */;
+		};
+		B7F6656B2141EA3000817659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7F665492141EA2D00817659 /* WXCP_Tumblr */;
+			targetProxy = B7F6656A2141EA3000817659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7F665512141EA2D00817659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F665522141EA2D00817659 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7F665562141EA3000817659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F665572141EA3000817659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7F665702141EA3000817659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7F665712141EA3000817659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7F665732141EA3000817659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE37453D969C54633ED4BEC7 /* Pods-WXCP_Tumblr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JP3MMS6QY;
+				INFOPLIST_FILE = WXCP_Tumblr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.WXCP-Tumblr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7F665742141EA3000817659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9118AFAF5ED5BB037BABC297 /* Pods-WXCP_Tumblr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JP3MMS6QY;
+				INFOPLIST_FILE = WXCP_Tumblr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.WXCP-Tumblr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7F665762141EA3000817659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A007F72C237CA3DAFFBBC396 /* Pods-WXCP_TumblrTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JP3MMS6QY;
+				INFOPLIST_FILE = WXCP_TumblrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.WXCP-TumblrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXCP_Tumblr.app/WXCP_Tumblr";
+			};
+			name = Debug;
+		};
+		B7F665772141EA3000817659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D227376DD995D8A5F4439E12 /* Pods-WXCP_TumblrTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JP3MMS6QY;
+				INFOPLIST_FILE = WXCP_TumblrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.WXCP-TumblrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXCP_Tumblr.app/WXCP_Tumblr";
+			};
+			name = Release;
+		};
+		B7F665792141EA3000817659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE035275E3823B01F437CC23 /* Pods-WXCP_TumblrUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JP3MMS6QY;
+				INFOPLIST_FILE = WXCP_TumblrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.WXCP-TumblrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WXCP_Tumblr;
+			};
+			name = Debug;
+		};
+		B7F6657A2141EA3000817659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B32A228F8AD2504A6C41653 /* Pods-WXCP_TumblrUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JP3MMS6QY;
+				INFOPLIST_FILE = WXCP_TumblrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.WXCP-TumblrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WXCP_Tumblr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7F665452141EA2D00817659 /* Build configuration list for PBXProject "WXCP_Tumblr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F665702141EA3000817659 /* Debug */,
+				B7F665712141EA3000817659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F665722141EA3000817659 /* Build configuration list for PBXNativeTarget "WXCP_Tumblr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F665732141EA3000817659 /* Debug */,
+				B7F665742141EA3000817659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F665752141EA3000817659 /* Build configuration list for PBXNativeTarget "WXCP_TumblrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F665762141EA3000817659 /* Debug */,
+				B7F665772141EA3000817659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F665782141EA3000817659 /* Build configuration list for PBXNativeTarget "WXCP_TumblrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F665792141EA3000817659 /* Debug */,
+				B7F6657A2141EA3000817659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7F665422141EA2D00817659 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_WXCP_TumblrTests {
+  umbrella header "Pods-WXCP_TumblrTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
