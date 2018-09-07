@@ -42,7 +42,11 @@ class PhotoViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let urlString = originalSize["url"] as! String
             // 4.
             let url = URL(string: urlString)
-            cell.postImageView.af_setImage(withURL: url!)
+            
+            let imageView = cell.postImageView
+            let placeholderImage = UIImage(named: "tumblrLogo")!
+            
+            imageView?.af_setImage(withURL: url!, placeholderImage: placeholderImage)
         }
         
         return cell
