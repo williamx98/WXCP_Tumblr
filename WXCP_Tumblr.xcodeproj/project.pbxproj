@@ -12,6 +12,7 @@
 		B0A598EF67E9EE5F4CBEACFD /* Pods_WXCP_Tumblr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502438EEFC6301B256251E03 /* Pods_WXCP_Tumblr.framework */; };
 		B7103A9B2141EBD8009A9440 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7103A9A2141EBD8009A9440 /* PhotoViewController.swift */; };
 		B7103A9D2141EDEF009A9440 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7103A9C2141EDEF009A9440 /* PostCell.swift */; };
+		B7DC496A214B255800F46A03 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DC4969214B255800F46A03 /* PhotoDetailViewController.swift */; };
 		B7F6654E2141EA2D00817659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6654D2141EA2D00817659 /* AppDelegate.swift */; };
 		B7F665532141EA2D00817659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F665512141EA2D00817659 /* Main.storyboard */; };
 		B7F665552141EA3000817659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7F665542141EA3000817659 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		A007F72C237CA3DAFFBBC396 /* Pods-WXCP_TumblrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXCP_TumblrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXCP_TumblrTests/Pods-WXCP_TumblrTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7103A9A2141EBD8009A9440 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		B7103A9C2141EDEF009A9440 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		B7DC4969214B255800F46A03 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		B7F6654A2141EA2D00817659 /* WXCP_Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXCP_Tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F6654D2141EA2D00817659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7F665522141EA2D00817659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				B7F665592141EA3000817659 /* Info.plist */,
 				B7103A9A2141EBD8009A9440 /* PhotoViewController.swift */,
 				B7103A9C2141EDEF009A9440 /* PostCell.swift */,
+				B7DC4969214B255800F46A03 /* PhotoDetailViewController.swift */,
 			);
 			path = WXCP_Tumblr;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			files = (
 				B7F6654E2141EA2D00817659 /* AppDelegate.swift in Sources */,
 				B7103A9B2141EBD8009A9440 /* PhotoViewController.swift in Sources */,
+				B7DC496A214B255800F46A03 /* PhotoDetailViewController.swift in Sources */,
 				B7103A9D2141EDEF009A9440 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
