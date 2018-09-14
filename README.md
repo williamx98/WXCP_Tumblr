@@ -65,17 +65,17 @@ Time spent: **2** hours spent in total
 
 The following **required** user stories are complete:
 
-- [x ] User can tab an image to view a larger image in a detail view (5pts)
+- [x] User can tab an image to view a larger image in a detail view (5pts)
 
 The following **stretch** user stories are implemented:
 
 - [ ] Add Avatar and Publish Dates (+2pt)
 - [ ] Zoomable Photo View (+2pt)
-- [x ] Infinite Scrolling (+2pt)
+- [x] Infinite Scrolling (+2pt)
 
 The following **additional** user stories are implemented:
 
-- [x ] Show network error alerts and refresh button on alert
+- [x] Show network error alerts and refresh button on alert
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
